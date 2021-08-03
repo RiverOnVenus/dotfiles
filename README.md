@@ -33,6 +33,6 @@ BT客户端：qbittorrent-enhanced
 
 # 截图
 
-![screensho01](https://cdn.jsdelivr.net/gh/riveronvenus/dotfiles/screenshot/Screenshot01.png)
+![screensho01](./screenshots/screenshot01.png)
 
-![screensho02](https://cdn.jsdelivr.net/gh/riveronvenus/dotfiles/screenshot/Screenshot02.png)
+![screensho02](./screenshots/screenshot02.png)
