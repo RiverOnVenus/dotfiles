@@ -11,7 +11,9 @@ Arch Linux下的一些配置文件。
 
 数学工具：geogebra
 
-媒体播放器：mpv
+媒体播放器：mpv、vlc
+
+直播播放器：qliveplayer
 
 终端复用器：tmux
 
@@ -29,7 +31,7 @@ Arch Linux下的一些配置文件。
 
 BT客户端：qbittorrent-enhanced
 
-内核：linux-cacule-rdb-llvm
+内核：linux-cacule-rdb-autogroup-lto
 
 # 截图
 
