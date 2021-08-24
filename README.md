@@ -31,6 +31,8 @@ Arch Linux下的一些配置文件。
 
 BT客户端：qbittorrent-enhanced
 
+虚拟机：qemu/kvm
+
 内核：linux-cacule-rdb-autogroup-lto
 
 # 截图
