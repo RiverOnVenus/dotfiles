@@ -33,5 +33,4 @@ BT客户端：qbittorrent-enhanced
 
 虚拟机：qemu/kvm
 
-内核：linux-ck-uksm-cjktty
-
+内核：linux-ck-uksm-cjktty、linux-cacule-rdb-llvm
