@@ -12,30 +12,6 @@ zle -N sudo-command-line
 bindkey "\e\e" sudo-command-line
 #}}}
 
-
-#命令别名 {{{
-  #alias vim='nvim'
-  alias diff= 'diff --color=auto'
-  alias kill='kill -9'
-  alias ls='ls -F --color=auto'
-  alias Syu='sudo pacman -Syu'
-  alias Syyu='sudo pacman -Syyu'
-  alias hp='htop'
-  alias mbx='musicbox|lolcat'
-  alias ql='qlphelper -u'
-  alias ygpm='you-get -p mpv'
-  alias sc='systemctl'
-  alias scoff='systemctl poweroff'
-  alias scend='systemctl suspend'
-  alias scoot='systemctl reboot'
-  alias ta='tmux attach -t'
-  alias ts='tmux new -s'
-  alias be='bundle exec'
-  alias bat='bat --theme Coldark-Dark'
-# alias ll='ls -al'
-  alias grep='grep --color=auto'
-
-
 man() {
     LESS_TERMCAP_md=$'\e[01;31m' \
     LESS_TERMCAP_me=$'\e[0m' \
@@ -45,14 +21,13 @@ man() {
     LESS_TERMCAP_us=$'\e[01;32m' \
     command man "$@"
 }
-  
-  
-#[Esc][h] man 当前命令时，显示简短说明
-alias run-help >&/dev/null && unalias run-help
-autoload run-help
-
-#历史命令 top10
-alias top10='print -l  ${(o)history%% *} | uniq -c | sort -nr | head -n 10'
+#命令别名 {{{
+  #alias vim='nvim'
+  alias diff= 'diff --color=auto'
+  alias kill='kill -9'
+  alias ls='ls -F --color=auto'
+  alias Syu='sudo pacman -Syu'
+  alias Syyu='sudo pacman -Syyu'
 #}}}
 
 #关于历史纪录的配置 {{{
