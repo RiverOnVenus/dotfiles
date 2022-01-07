@@ -35,7 +35,12 @@ man() {
     command man "$@"
 }
 #命令别名 {{{
-  #alias vim='nvim'
+  alias mkdir='mkdir -v'
+  alias mv='mv -v'
+  alias cp='cp -v'
+#   alias rm='echo "This is not the command you are looking for."; false'
+  alias rm='rm -v'
+  alias ln='ln -v'
   alias diff= 'diff --color=auto'
   alias kill='kill -9'
   alias ls='ls -F --color=auto'
