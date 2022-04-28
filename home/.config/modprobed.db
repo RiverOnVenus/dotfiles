@@ -51,6 +51,7 @@ i8042
 i915
 ideapad_laptop
 idma64
+inet_diag
 int3400_thermal
 int340x_thermal_zone
 intel_agp
@@ -161,12 +162,14 @@ snd_timer
 soundcore
 sparse_keymap
 stp
+tcp_diag
 tpm
 tpm_crb
 tpm_tis
 tpm_tis_core
 ttm
 uas
+udp_diag
 ufs
 usbhid
 usb_storage
