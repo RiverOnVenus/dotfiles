@@ -31,6 +31,7 @@ cryptd
 crypto_simd
 crypto_user
 dm_mod
+dm_multipath
 ecdh_generic
 ee1004
 efivarfs
@@ -162,12 +163,14 @@ snd_timer
 soundcore
 sparse_keymap
 stp
+tap
 tcp_diag
 tpm
 tpm_crb
 tpm_tis
 tpm_tis_core
 ttm
+tun
 uas
 udp_diag
 ufs
@@ -175,6 +178,9 @@ usbhid
 usb_storage
 uvcvideo
 vfat
+vhost
+vhost_iotlb
+vhost_net
 video
 videobuf2_common
 videobuf2_memops
