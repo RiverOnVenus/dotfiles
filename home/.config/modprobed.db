@@ -32,6 +32,8 @@ crypto_simd
 crypto_user
 dm_mod
 dm_multipath
+drm_buddy
+drm_dp_helper
 ecdh_generic
 ee1004
 efivarfs
@@ -187,6 +189,7 @@ videobuf2_memops
 videobuf2_v4l2
 videobuf2_vmalloc
 videodev
+vivaldi_fmap
 wmi
 wmi_bmof
 x86_pkg_temp_thermal
