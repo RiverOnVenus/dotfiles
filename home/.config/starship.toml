@@ -84,3 +84,17 @@ symbol = "🅢 "
 [rust]
 symbol = " "
 
+
+# [username]
+# style_user ="bold 111"
+# style_root = "bold red"
+# format = "[$user]($style)"
+# disabled = false
+# show_always = true
+# 
+# 
+# [hostname]
+# ssh_only = false
+# format = "[$ssh_symbol](bold blue) on [$hostname](bold #FF8000) "
+# trim_at = ".companyname.com"
+#disabled = true
