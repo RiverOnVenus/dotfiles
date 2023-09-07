@@ -24,6 +24,7 @@ cfg80211
 cifs
 cifs_arc4
 cifs_md4
+cls_bpf
 cmac
 coretemp
 crc16
@@ -172,6 +173,7 @@ rfcomm
 rfkill
 roles
 sch_cake
+sch_ingress
 serio
 serio_raw
 sha512_ssse3
