@@ -9,7 +9,6 @@ algif_skcipher
 atkbd
 bluetooth
 bnep
-bpf_preload
 bridge
 btbcm
 btintel
