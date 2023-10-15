@@ -170,6 +170,7 @@ r8153_ecm
 rapl
 rfcomm
 rfkill
+rndis_host
 roles
 sch_cake
 sch_ingress
