@@ -54,6 +54,7 @@ hid_logitech_dj
 hid_logitech_hidpp
 hid_multitouch
 i2c_algo_bit
+i2c_dev
 i2c_hid
 i2c_hid_acpi
 i2c_i801
