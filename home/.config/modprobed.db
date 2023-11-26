@@ -1,5 +1,4 @@
 ac97_bus
-acpi_cpufreq
 acpi_pad
 acpi_thermal_rel
 aesni_intel
@@ -61,6 +60,8 @@ i2c_i801
 i2c_smbus
 i8042
 i915
+ib_cm
+ib_core
 ideapad_laptop
 idma64
 inet_diag
@@ -90,6 +91,7 @@ irqbypass
 isofs
 iTCO_vendor_support
 iTCO_wdt
+iw_cm
 iwlmvm
 iwlwifi
 jbd2
@@ -152,6 +154,7 @@ nft_reject
 nft_reject_ipv4
 nft_tproxy
 nls_iso8859_1
+nls_ucs2_utils
 nls_utf8
 ntfs3
 nvme
@@ -169,6 +172,7 @@ processor_thermal_rfim
 r8152
 r8153_ecm
 rapl
+rdma_cm
 rfcomm
 rfkill
 rndis_host
