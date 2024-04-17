@@ -6,6 +6,7 @@ af_alg
 algif_hash
 algif_skcipher
 atkbd
+binder_linux
 bluetooth
 bnep
 bridge
@@ -105,6 +106,7 @@ joydev
 kvm
 kvm_intel
 ledtrig_audio
+legion_laptop
 libarc4
 libcrc32c
 libps2
@@ -254,6 +256,7 @@ usbnet
 usb_storage
 uvc
 uvcvideo
+veth
 vfat
 vhost
 vhost_iotlb
