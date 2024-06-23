@@ -1,4 +1,3 @@
-ac97_bus
 acpi_pad
 acpi_thermal_rel
 aesni_intel
@@ -19,6 +18,7 @@ cdc_ether
 cdrom
 cec
 cfg80211
+chacha_x86_64
 cifs
 cifs_arc4
 cifs_md4
@@ -34,6 +34,7 @@ crct10dif_pclmul
 cryptd
 crypto_simd
 crypto_user
+curve25519_x86_64
 dm_mod
 dm_multipath
 dns_resolver
@@ -86,6 +87,7 @@ intel_uncore_frequency_common
 intel_vsec
 intel_wmi_thunderbolt
 intel_xhci_usb_role_switch
+ip6_udp_tunnel
 ipmi_devintf
 ipmi_msghandler
 iptable_nat
@@ -104,7 +106,10 @@ kvm
 kvm_intel
 ledtrig_audio
 libarc4
+libchacha
+libchacha20poly1305
 libcrc32c
+libcurve25519_generic
 libphy
 libps2
 llc
@@ -126,6 +131,7 @@ nf_conntrack
 nf_conntrack_ftp
 nf_conntrack_h323
 nf_conntrack_irc
+nf_conntrack_netlink
 nf_conntrack_pptp
 nf_conntrack_sip
 nf_conntrack_tftp
@@ -139,6 +145,7 @@ nf_nat_pptp
 nf_nat_sip
 nf_nat_tftp
 nfnetlink
+nfnetlink_acct
 nf_reject_ipv4
 nf_socket_ipv4
 nf_socket_ipv6
@@ -163,11 +170,13 @@ ntfs3
 nvme
 nvme_auth
 nvme_core
+overlay
 pcspkr
 pinctrl_sunrisepoint
 platform_profile
 pmt_class
 pmt_telemetry
+poly1305_x86_64
 polyval_clmulni
 polyval_generic
 pps_core
@@ -210,7 +219,6 @@ snd_hwdep
 snd_intel_dspcfg
 snd_intel_sdw_acpi
 snd_pcm
-snd_pcm_dmaengine
 snd_seq
 snd_seq_device
 snd_seq_dummy
@@ -247,6 +255,7 @@ tun
 uas
 udf
 udp_diag
+udp_tunnel
 ufs
 uinput
 usbhid
@@ -267,6 +276,7 @@ videobuf2_vmalloc
 videodev
 vivaldi_fmap
 winesync
+wireguard
 wmi
 wmi_bmof
 x86_pkg_temp_thermal
