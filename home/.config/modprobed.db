@@ -1,3 +1,4 @@
+ac97_bus
 acpi_pad
 acpi_thermal_rel
 aesni_intel
@@ -57,6 +58,7 @@ i2c_dev
 i2c_hid
 i2c_hid_acpi
 i2c_i801
+i2c_mux
 i2c_smbus
 i8042
 i915
@@ -219,6 +221,8 @@ snd_hwdep
 snd_intel_dspcfg
 snd_intel_sdw_acpi
 snd_pcm
+snd_pcm_dmaengine
+snd_rawmidi
 snd_seq
 snd_seq_device
 snd_seq_dummy
@@ -239,6 +243,9 @@ snd_sof_pci
 snd_sof_utils
 snd_sof_xtensa_dsp
 snd_timer
+snd_ump
+snd_usb_audio
+snd_usbmidi_lib
 soundcore
 soundwire_bus
 soundwire_cadence
