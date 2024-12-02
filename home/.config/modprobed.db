@@ -1,3 +1,5 @@
+842_compress
+842_decompress
 ac97_bus
 acpi_pad
 acpi_thermal_rel
@@ -41,7 +43,7 @@ dm_multipath
 dns_resolver
 drm_buddy
 drm_display_helper
-ecdh_generic
+drm_ttm_helper
 ee1004
 ext4
 fat
@@ -106,7 +108,6 @@ jfs
 joydev
 kvm
 kvm_intel
-ledtrig_audio
 libarc4
 libchacha
 libchacha20poly1305
@@ -116,6 +117,8 @@ libphy
 libps2
 llc
 loop
+lz4_compress
+lz4hc_compress
 mac80211
 mac_hid
 mbcache
@@ -232,9 +235,6 @@ snd_soc_avs
 snd_soc_core
 snd_soc_hdac_hda
 snd_soc_hda_codec
-snd_soc_skl
-snd_soc_sst_dsp
-snd_soc_sst_ipc
 snd_sof
 snd_sof_intel_hda
 snd_sof_intel_hda_common
@@ -255,6 +255,7 @@ sparse_keymap
 sr_mod
 stp
 tap
+tcp_bbr
 tcp_diag
 tls
 ttm
@@ -282,12 +283,10 @@ videobuf2_v4l2
 videobuf2_vmalloc
 videodev
 vivaldi_fmap
-winesync
 wireguard
 wmi
 wmi_bmof
 x86_pkg_temp_thermal
-xhci_pci
 xhci_pci_renesas
 x_tables
 xt_addrtype
